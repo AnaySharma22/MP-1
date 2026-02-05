@@ -63,6 +63,7 @@ img {
     width: calc(2px + 30vw);
     margin: 0 auto;
     display: block;
+    border: 10px solid saddlebrown;
 }
 p{
     font: bold 25px "Lucida Grande", Helvetica, Arial, sans-serif;
@@ -77,6 +78,59 @@ p{
 }
 
 #courses {
+    padding: 1%;
+    margin: 5%;
+}
+
+#skills_list{
+    font: bold 25px "Lucida Grande", Helvetica, Arial, sans-serif;
+    padding: 1%;
+    margin: 5%;
+}
+#coding_languages {
+    padding: 1%;
+    margin: 5%;
+
+}
+#tools {
+    padding: 1%;
+    margin: 5%;
+
+}
+
+#frameworks {
+    padding: 1%;
+    margin: 5%;
+
+}
+
+#databases {
+    padding: 1%;
+    margin: 5%;
+
+}
+#languages {
+    padding: 1%;
+    margin: 5%;
+}
+#hobby_list{
+    font: bold 25px "Lucida Grande", Helvetica, Arial, sans-serif;
+    padding: 1%;
+    margin: 5%;
+}
+#tech {
+    padding: 1%;
+    margin: 5%;
+}
+#fitness {
+    padding: 1%;
+    margin: 5%;
+}
+#sports {
+    padding: 1%;
+    margin: 5%;
+}
+#misc {
     padding: 1%;
     margin: 5%;
 }

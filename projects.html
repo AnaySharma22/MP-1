@@ -24,11 +24,30 @@
           </nav>
           <main>
             <h1> Projects </h1>
+            <div id="calculator">
+              <h2> Javascript Calculator </h2>
+              <div class = 'inputs'>
+                <label for="first-number"> First Number: </label>
+                <input id="first-number" type="number" placeholder="Enter First Number">
+                <label for="second-number"> Second Number: </label>
+                <input id="second-number" type="number" placeholder="Enter Second Number">
+              </div>
+              <div class = 'buttons'>
+                <button onclick="addition()">+</button>
+                <button onclick="subtraction()">-</button>
+                <button onclick="multiplication()">*</button>
+                <button onclick="division()">/</button>
+                <button onclick="power()">**</button>
+                <button onclick="clearCalc()">Clear</button>
+              </div>
+              <h2 id = "output"> </h2>
+            </div>
           </main>
         </div>
         <footer>
           <h3>All Rights Reserved By Anay Sharma  <a href="" > Credits  </a> &#169 </h3>
         </footer>
     </div>
+    <script src="calc.js"></script>
   </body>
 </html>
