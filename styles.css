@@ -155,6 +155,83 @@ footer {
     color: black;
     text-align: center;
 }
+
+.calculator {
+    width: 90%;
+    margin: 40px auto;
+    padding: 25px;
+    border-radius: 15px;
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.calculator h2 {
+    margin-bottom: 20px;
+    font-size: calc(18px + 1vw);
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-family: "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+.inputs input {
+    padding: 10px;
+    border-radius: 8px;
+    border: solid 2px black;
+    font-size: calc(12px + 0.5vw);
+    text-align: center;
+    height: calc(10px + 2vw);
+}
+
+.buttons {
+    display: flex;
+    flex-wrap: wrap; /* I went to flexbox documentation and learnt how to align items in a grid because I wanted my buttons
+                     to be structured like that*/
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.buttons button {
+    flex: 40%;
+    padding: 12px;
+    border: none;
+    border-radius: 10px;
+    font-size: calc(14px + 0.5vw);
+    cursor: pointer;
+    background: royalblue;
+    color: white;
+}
+
+.buttons button:hover {
+    background: dodgerblue;
+}
+
+#clear {
+    background: dimgray;
+}
+#clear:hover {
+    background: red;
+}
+
+#output {
+    font-family: "Lucida Grande", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    height: calc(10px + 2vw);
+    font-size: calc(12px + 0.5vw);
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 8px;
+    background: white;
+    color: black;
+    text-align: center;
+}
 @media screen and (max-width: 750px) {
     header{
         text-align: center;
@@ -191,6 +268,14 @@ footer {
         width: calc(2px + 50vw);
         margin: 0 auto;
         display: block;
+    }
+    .calculator {
+        padding: 15px;
+    }
+
+    .buttons button {
+        flex: 1 1 45%;
+        font-size: calc(12px + 1vw);
     }
 }
 
