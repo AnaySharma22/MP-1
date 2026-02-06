@@ -163,7 +163,7 @@ p{
 }
 
 #skills_list{
-    font: bold calc(2px + 3vh) "Roboto Slab", sans-serif;
+    font: bold calc(2px + 2.5vh) "Roboto Slab", sans-serif;
     padding: 1%;
     margin: 5%;
     list-style: none;
@@ -194,7 +194,7 @@ p{
 }
 
 #hobby_list{
-    font: bold calc(2px + 3vh) "Roboto Slab", sans-serif;
+    font: bold calc(2px + 2.5vh) "Roboto Slab", sans-serif;
     padding: 1%;
     margin: 5%;
     list-style: none;
@@ -216,7 +216,7 @@ p{
 }
 .title {
     padding: 2%;
-    font: bold calc(2px + 3.7vh) "Roboto Slab", sans-serif;
+    font: bold calc(2px + 3.2vh) "Roboto Slab", sans-serif;
     text-align: center;
     border: 5px solid black;
     background-color: lightsalmon;
@@ -228,7 +228,7 @@ p{
 
 .post{
     padding: 0;
-    font: bold calc(2px + 3vh) "Roboto Slab", sans-serif;
+    font: bold calc(2px + 2.7vh) "Roboto Slab", sans-serif;
     border: 5px solid black;
     border-radius: 8px;
     background-color: lightskyblue;
