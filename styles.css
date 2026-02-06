@@ -375,14 +375,20 @@ input{
         margin: 0 auto;
         display: block;
     }
-    .calculator {
-        padding: 15px;
+    #calculator h2{
+        margin-top: 7%
     }
 
-
+    .inputs{
+        margin-top: 7%;
+    }
     .inputs input {
         height: calc(12px + 10vh);
         font-size: calc(12px + 1vh);
+    }
+    .buttons{
+        margin-top: 7%;
+        margin-bottom: 7%;
     }
     .buttons button {
         flex: 45%;
