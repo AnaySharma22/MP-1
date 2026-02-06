@@ -381,16 +381,17 @@ input{
 
 
     .inputs input {
-        height: calc(12px + 5vh);
+        height: calc(12px + 10vh);
+        font-size: calc(12px + 1vh);
     }
     .buttons button {
         flex: 45%;
-        font-size: calc(12px + 1vw);
-        height: calc(10px + 10vh);
+        font-size: calc(12px + 1vh);
+        height: calc(10px + 15vh);
     }
     #output{
-        height: calc(12px + 5vh);
-        font-size: calc(12px + 0.5vw);
+        height: calc(12px + 10vh);
+        font-size: calc(12px + 2vh);
     }
 }
 
