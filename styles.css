@@ -236,7 +236,7 @@ p{
 }
 .points {
     margin: 1%;
-    font: bold (2px + 2vh) "Roboto Slab", sans-serif;
+    font: bold calc(2px + 2.2vh) "Roboto Slab", sans-serif;
     text-align: center;
     list-style: none;
     padding: 1%;
