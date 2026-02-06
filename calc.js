@@ -35,7 +35,7 @@ function division() {
     let n2 = Number(document.getElementById("second-number").value);
 
     if (n2 === 0) {
-        displayResult("Cannot divide by zero");
+        displayResult("ERROR! Cannot divide by zero, clear and try again.");
     } else {
         let result = n1 / n2;
         displayResult(result);

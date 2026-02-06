@@ -11,12 +11,14 @@
 header {
     padding: 2%;
     background-color: red;
+    font:bold calc(2px + 2vh) "Roboto Slab", sans-serif;
 }
 
 #nav-main{
     display: flex;
     flex-direction: row;
     width: 100%;
+    font: bold calc(2px + 2vh) "Roboto Slab", sans-serif;
 }
 
 nav {
@@ -46,12 +48,14 @@ nav ul li a h3{
     text-align: center;
 }
 main{
-    background-color: grey;
+    background-color: lightgray;
     width: 80%;
+    padding: 20px 0;
 }
 
 main h1 {
     text-align: center;
+    font-family: "Roboto Slab", sans-serif;
 }
 
 main h3 {
@@ -60,112 +64,211 @@ main h3 {
 
 img {
     height: calc(2px + 50vh);
-    width: calc(2px + 30vw);
-    margin: 0 auto;
+    width: calc(2px + 25vw);
+    margin: 2% auto;
     display: block;
-    border: 10px solid saddlebrown;
+    border: 10px solid darkslateblue;
 }
 p{
-    font: bold 25px "Lucida Grande", Helvetica, Arial, sans-serif;
+    font: bold 25px "Roboto Slab", sans-serif;
     padding: 10px;
     text-align: center;
 }
 
+#desc {
+    border: 2px solid black;
+    background-color: lightsalmon;
+    width: 80%;
+    margin: 2% auto;
+}
+
 #education_list{
-    font: bold 25px "Lucida Grande", Helvetica, Arial, sans-serif;
-    padding: 1%;
-    margin: 5%;
+    font: bold 20px "Roboto Slab", sans-serif;
+    background-color: lightsalmon;
+    border-radius: 15px;
+    padding: 25px;
+    margin: 25px auto;
+    width: 85%;
+    border: 2px solid black;
+    font-weight: normal;
+    font-size: calc(14px + 0.5vw);
+    line-height: 1.6;
+    text-align: center;
+    list-style: none;
+}
+#education_list li {
+    font: bold 25px "Roboto Slab", sans-serif;
+    padding: 10px;
+    border: 2px solid black;
+    margin: 25px auto;
+    border-radius: 10px;
+}
+
+#bu {
+    background-color: lightsalmon;
+    width: 60%;
+    margin: 10px auto;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 12px;
+}
+#degree {
+    background-color: lightsalmon;
+    width: 60%;
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 12px;
+    border: 2px solid black;
+}
+#gpa{
+    background-color: lightblue;
+}
+#awards{
+    background-color: lightblue;
 }
 
 #courses {
-    padding: 1%;
-    margin: 5%;
+    list-style: none;
+    padding: 0;
+    margin: 10px auto 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
+    width: 90%;
+}
+#courses li {
+    background-color: white;
+    color: black;
+    padding: 10px 15px;
+    border-radius: 20px;
+    font-size: calc(12px + 0.4vw);
+    text-align: center;
+    font-family: "Roboto Slab", sans-serif;
+}
+#courses li:hover {
+    background-color: lightcyan;
+    cursor: pointer;
+}
+#coursework{
+    background-color: lightblue;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    list-style: none;
 }
 
 #skills_list{
-    font: bold 25px "Lucida Grande", Helvetica, Arial, sans-serif;
+    font: bold 25px "Roboto Slab", sans-serif;
     padding: 1%;
     margin: 5%;
+    list-style: none;
+    justify-items: center;
+    text-align: center;
 }
-#coding_languages {
-    padding: 1%;
-    margin: 5%;
-
-}
-#tools {
-    padding: 1%;
-    margin: 5%;
-
-}
-
-#frameworks {
-    padding: 1%;
-    margin: 5%;
-
-}
-
-#databases {
-    padding: 1%;
-    margin: 5%;
-
-}
-#languages {
-    padding: 1%;
+.area{
+    border: 2px solid black;
+    width: 80%;
+    border-radius: 10px;
+    background-color: lightsalmon;
     margin: 5%;
 }
+#coding_languages, #tools, #frameworks, #databases, #languages, #tech, #fitness, #sports, #misc {
+    padding: 1%;
+    margin: 5%;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
+}
+#coding_languages li, #tools li, #frameworks li, #databases li, #languages li, #tech li, #fitness li, #sports li, #misc li{
+    background-color: lightblue;
+    border-radius: 10px;
+    border: 2px solid black;
+    width: 75%;
+}
+
 #hobby_list{
-    font: bold 25px "Lucida Grande", Helvetica, Arial, sans-serif;
+    font: bold 25px "Roboto Slab", sans-serif;
     padding: 1%;
     margin: 5%;
-}
-#tech {
-    padding: 1%;
-    margin: 5%;
-}
-#fitness {
-    padding: 1%;
-    margin: 5%;
-}
-#sports {
-    padding: 1%;
-    margin: 5%;
-}
-#misc {
-    padding: 1%;
-    margin: 5%;
+    list-style: none;
+    justify-items: center;
+    text-align: center;
 }
 
+.type{
+    border: 2px solid black;
+    width: 80%;
+    border-radius: 10px;
+    background-color: lightsalmon;
+    margin: 5%;
+
+}
+
+#exp{
+    justify-items: center;
+}
 .title {
     padding: 2%;
-    font: bold 30px "Lucida Grande", Helvetica, Arial, sans-serif;
+    font: bold 30px "Roboto Slab", sans-serif;
     text-align: center;
+    border: 5px solid black;
+    background-color: lightsalmon;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    border-radius: 10px;
+    width: 80%;
 }
 
 .post{
     padding: 0;
-    font: bold 25px "Lucida Grande", Helvetica, Arial, sans-serif;
+    font: bold 25px "Roboto Slab", sans-serif;
+    border: 5px solid black;
+    border-radius: 8px;
+    background-color: lightskyblue;
+    margin: 2%;
+    width: 50%;
 }
 .points {
     margin: 1%;
-    font: bold 20px "Lucida Grande", Helvetica, Arial, sans-serif;
+    font: bold 20px "Roboto Slab", sans-serif;
+    text-align: center;
+    list-style: none;
+    padding: 1%;
+}
+.points li {
+    color: maroon;
+    padding: 1%;
+    margin: 1%;
 }
 
 footer {
     background-color: red;
     color: black;
     text-align: center;
+    font: bold calc(2px + 2vh) "Roboto Slab", sans-serif;
 }
 
-.calculator {
-    width: 90%;
-    margin: 40px auto;
-    padding: 25px;
-    border-radius: 15px;
+
+#calculator {
     text-align: center;
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-family: "Orbitron", sans-serif;
+    margin: 1%;
 }
 
+label{
+    font-family: 'Orbitron', sans-serif;
+}
+input{
+    font-family: 'Orbitron', sans-serif;
+}
+#output{
+    font-family: 'Orbitron', sans-serif;
+}
 .calculator h2 {
     margin-bottom: 20px;
     font-size: calc(18px + 1vw);
@@ -177,7 +280,6 @@ footer {
     gap: 10px;
     margin-bottom: 20px;
     margin-top: 20px;
-    font-family: "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
 .inputs input {
@@ -207,6 +309,7 @@ footer {
     cursor: pointer;
     background: royalblue;
     color: white;
+    font-family: 'Orbitron', sans-serif;
 }
 
 .buttons button:hover {
@@ -221,10 +324,9 @@ footer {
 }
 
 #output {
-    font-family: "Lucida Grande", Helvetica, Arial, sans-serif;
     font-weight: bold;
-    height: calc(10px + 2vw);
-    font-size: calc(12px + 0.5vw);
+    height: calc(10px + 3vw);
+    font-size: calc(12px + 1vw);
     padding: 10px;
     border: 2px solid black;
     border-radius: 8px;
@@ -239,13 +341,14 @@ footer {
     #nav-main{
         display: flex;
         flex-direction: column;
+
     }
     nav {
         width: 100%;
     }
     main{
         width: 100%;
-        height: 150vh;
+        height: 200vh;
     }
     nav ul{
         display: flex;
@@ -274,8 +377,12 @@ footer {
     }
 
     .buttons button {
-        flex: 1 1 45%;
+        flex: 45%;
         font-size: calc(12px + 1vw);
+    }
+    #output{
+        height: calc(12px + 3vw);
+        font-size: calc(12px + 0.5vw);
     }
 }
 
