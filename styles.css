@@ -379,12 +379,17 @@ input{
         padding: 15px;
     }
 
+
+    .inputs input {
+        height: calc(12px + 5vh);
+    }
     .buttons button {
         flex: 45%;
         font-size: calc(12px + 1vw);
+        height: calc(10px + 10vh);
     }
     #output{
-        height: calc(12px + 3vw);
+        height: calc(12px + 5vh);
         font-size: calc(12px + 0.5vw);
     }
 }
